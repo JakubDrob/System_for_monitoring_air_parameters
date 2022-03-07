@@ -4,14 +4,14 @@ from typing import NamedTuple
 import paho.mqtt.client as mqtt
 from influxdb import InfluxDBClient
 
-INFLUXDB_ADDRESS = '192.168.0.189'
+INFLUXDB_ADDRESS = '192.198.0.189'
 INFLUXDB_USER = 'mqtt'
-INFLUXDB_PASSWORD = 'asfalt12'
+INFLUXDB_PASSWORD = 'gsdfggsg'
 INFLUXDB_DATABASE = 'air_parameters'
 
-MQTT_ADDRESS = '192.168.0.189'
+MQTT_ADDRESS = '192.198.0.189'
 MQTT_USER = 'mqtt'
-MQTT_PASSWORD = 'asfalt12'
+MQTT_PASSWORD = 'fdgdgsdg'
 MQTT_TOPIC = 'home/+/+'
 MQTT_REGEX = 'home/([^/]+)/([^/]+)'
 MQTT_CLIENT_ID = 'MQTTInfluxDBBridge'
